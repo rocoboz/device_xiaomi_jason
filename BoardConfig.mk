@@ -34,6 +34,9 @@ TARGET_KERNEL_VERSION := 4.4
 BOARD_QTI_CAMERA_32BIT_ONLY := true
 $(call project-set-path,qcom-camera,$(DEVICE_PATH)/camera)
 
+#BUILD
+BUILD_BROKEN_DUP_RULES := true
+
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
