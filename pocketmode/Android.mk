@@ -12,9 +12,6 @@ LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRODUCT_MODULE := true
 LOCAL_REQUIRED_MODULES := pocketmode_whitelist.xml
 
-LOCAL_STATIC_JAVA_LIBRARIES := \
-    org.lineageos.platform.internal
-
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 include $(BUILD_PACKAGE)
